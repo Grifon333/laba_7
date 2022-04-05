@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="backgroundAdd" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="400.0" style="-fx-background-color: #ABABAB; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_laba_7.AddController">
+   <children>
+      <Button fx:id="exit" layoutX="321.0" layoutY="24.0" mnemonicParsing="false" onAction="#exitAddAction" style="-fx-background-color: red; -fx-background-radius: 7; -fx-border-radius: 7; -fx-border-color: silver;" text="x" textFill="WHITE">
+         <font>
+            <Font name="Menlo Regular" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="title" layoutX="153.0" layoutY="30.0" text="Enter data">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameEnter" layoutX="20.0" layoutY="80.0" prefHeight="27.0" prefWidth="170.0" promptText="name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="surnameEnter" layoutX="205.0" layoutY="80.0" prefHeight="27.0" prefWidth="170.0" promptText="surname">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="secondNameEnter" layoutX="20.0" layoutY="120.0" prefHeight="27.0" prefWidth="170.0" promptText="second name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="accountEnter" layoutX="205.0" layoutY="120.0" prefHeight="27.0" prefWidth="170.0" promptText="account">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cityEnter" layoutX="20.0" layoutY="160.0" prefHeight="27.0" prefWidth="170.0" promptText="city (xx:xx:xx)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="intercityEnter" layoutX="205.0" layoutY="160.0" prefHeight="27.0" prefWidth="170.0" promptText="intercity (hh:mm:ss)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="senderEnter" layoutX="20.0" layoutY="200.0" prefHeight="27.0" prefWidth="170.0" promptText="sender">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="add" layoutX="263.0" layoutY="215.0" mnemonicParsing="false" onAction="#addAddAction" prefHeight="29.0" prefWidth="75.0" style="-fx-background-color: yellow; -fx-background-radius: 7; -fx-border-radius: 7; -fx-border-color: silver;" text="Add">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
